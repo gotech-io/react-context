@@ -18,7 +18,10 @@ const themes = {
   },
 };
 
-const ThemeContext = createContext(themes.light);
+const ThemeContext = createContext({
+  theme: themes.light,
+  changeTheme: () => {},
+});
 
 const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(themes.light);
