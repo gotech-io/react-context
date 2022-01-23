@@ -8,13 +8,13 @@ These repositories are a part of a course led by [Doron Feldman](https://github.
 1. What is React and why do we need it?
 2. Intro to JSX
 3. React Components - Basics
-   * Examples - [react-components](https://github.com/gotech-io/react-components) ⬅ **You are here**
+   * Examples - [react-components](https://github.com/gotech-io/react-components)
    * Practice - [react-practice-01](https://github.com/gotech-io/react-practice-01)
 4. React Components - State & Lifecycle
    * Examples - [react-state-lifecycle](https://github.com/gotech-io/react-state-lifecycle)
    * Practice - [react-practice-02](https://github.com/gotech-io/react-practice-02)
 5. React Context
-   * Examples - [react-context](https://github.com/gotech-io/react-context)
+   * Examples - [react-context](https://github.com/gotech-io/react-context) ⬅ **You are here**
    * Practice - [react-practice-03](https://github.com/gotech-io/react-practice-03)
 6. Styling in React
    * Examples - [react-styling](https://github.com/gotech-io/react-styling)
