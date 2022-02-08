@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './ThemedButton';
+import ThemedButton from './ThemedButton';
 import ThemeProvider from './themeContext';
 import Header from './Header';
 import ToggleThemeButton from './ToggleThemeButton';
@@ -19,11 +19,11 @@ const App = () => {
         <Header text="Theming with context" />
         <FakeNesting>
           <FakeNesting>
-            <Button
+            <ThemedButton
               text="I'm a Button"
               onClick={() => onButtonClick('You clicked a Button')}
             />
-            <Button
+            <ThemedButton
               text="I'm another Button"
               onClick={() => onButtonClick('You clicked another Button')}
             />
